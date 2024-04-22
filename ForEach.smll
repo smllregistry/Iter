@@ -1,0 +1,10 @@
+
+fun for_each(elem: List[Any], callb: fn(Any): Unit): Unit => {
+  java {
+    "for (Object x: elem) {"
+    "  callb.apply(x);"
+    "}"
+  }
+  ()
+}
+

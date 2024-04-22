@@ -1,0 +1,11 @@
+
+fun do_while(cond: Bool, callb: fn(): Unit): Unit => {
+  java {
+    "do {"
+    "  callb.apply();"
+    "} while (cond);"
+  }
+  ()
+}
+
+
