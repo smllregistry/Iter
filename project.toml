@@ -1,0 +1,7 @@
+
+[project]
+name = "Iter"
+version = "0.0.1"
+authors = ["Hexaredecimal"]
+edition = "2024"
+
